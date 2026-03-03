@@ -4,11 +4,8 @@ const connectDB = require("./configuration/dbConfig");
 const signupRouter = require("./routes/signup");
 const loginRouter = require("./routes/login");
 const barcodeRoutes = require("./routes/iot/barcodeRoutes");
-
 const budgetingRoutes = require("./routes/budgeting/budgetingRoutes");
-
 const inventoryRoutes = require("./routes/inventory/inventoryRoutes");
-
 const groceryRoutes = require("./routes/GroceryRoute/grocery");
 const productRoutes = require("./routes/iot/productRoutes");
 const bodyParser = require("body-parser");
